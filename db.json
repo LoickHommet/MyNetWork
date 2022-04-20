@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "pseudo": "Gérage",
+      "email": "gérage@gmail.fr",
+      "password": "123456",
+      "urlImgProfil": "https://thispersondoesnotexist.com/image"
+    },
+    {
+      "id": 2,
+      "pseudo": "Jesica",
+      "email": "jesica@yahoo.fr",
+      "password": "123456",
+      "urlImgProfil": "https://thispersondoesnotexist.com/image"
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "contenu": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel imperdiet ligula. Curabitur vitae dolor eget lorem viverra pulvinar eget et erat. Suspendisse varius eros varius nisi pharetra viverra.",
+      "urlImgArticle": "https://source.unsplash.com/random/1000x300",
+      "like": 2,
+      "pseudo": "gérage",
+      "date": 244535,
+      "commentaires": [
+        {
+          "id": 1,
+          "contenu": "lorem ipsum t ligula. Curabitur vitae dolor eget lorem viver",
+          "pseudo": "Jesica",
+          "dt": 244535
+        },
+        {
+          "id": 2,
+          "contenu": "lorem ipsum eget lorem viverra pulvinar",
+          "pseudo": "Jesica",
+          "dt": 244535
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "contenu": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel imperdiet ligula. Curabitur vitae dolor eget lorem viverra pulvinar eget et erat. Suspendisse varius eros varius nisi pharetra viverra.",
+      "urlImgArticle": "https://source.unsplash.com/random/1000x300",
+      "like": 6,
+      "pseudo": "Jesica",
+      "date": 1986539865,
+      "commentaires": [
+        {
+          "id": 1,
+          "contenu": "lorem ipsum",
+          "pseudo": "Béatrice",
+          "dt": 8986539865
+        },
+        {
+          "id": 2,
+          "contenu": "lorem ipsum",
+          "pseudo": "Béatrice",
+          "dt": 8986539865
+        }
+      ]
+    }
+  ]
+}
